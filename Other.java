@@ -1,0 +1,13 @@
+package sandeep;
+class ScopePackagePrivateDemo {
+	public static void main(String[]args) {
+		Other ot=new Other();
+		ot.doSomething();
+	}
+}
+public class Other {
+	int var;
+	public void doSomething(){
+		System.out.println("inside doSomething().....");
+	}
+}
